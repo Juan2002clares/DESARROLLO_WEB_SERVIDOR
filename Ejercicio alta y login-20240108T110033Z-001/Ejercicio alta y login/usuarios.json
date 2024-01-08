@@ -1,0 +1,92 @@
+[
+    {
+        "nombre": "22clares",
+        "apellidos": "Clares Torrente",
+        "telefono": "dadsads",
+        "correo": "juanenriclares@gmail.com",
+        "password": "1234",
+        "repeat_password": "1234",
+        "fichero": null
+    },
+    {
+        "nombre": "Pepito",
+        "apellidos": "Clares",
+        "telefono": "656334",
+        "correo": "pepito@gmail.com",
+        "password": "1234",
+        "repeat_password": "1234",
+        "fichero": null
+    },
+    {
+        "nombre": "Alicia",
+        "apellidos": "Garcia",
+        "telefono": "4464282",
+        "correo": "alicia@hotmail.com",
+        "password": "1234",
+        "repeat_password": "1234",
+        "fichero": "style.css"
+    },
+    {
+        "nombre": "Asaf",
+        "apellidos": "Borgore",
+        "telefono": "66464646",
+        "correo": "borgorecontact@gmail.com",
+        "password": "2332",
+        "repeat_password": "2332",
+        "fichero": "a-portrait-of-the-american-actor-chuck-norris-taken-in-munich-germany-a-former-karate-champion.webp"
+    },
+    {
+        "nombre": "22clares",
+        "apellidos": "Borgore",
+        "telefono": "656334",
+        "correo": "borgorecontact@gmail.com",
+        "password": "6786",
+        "repeat_password": "6786",
+        "fichero": "Alexa-20231018T153758Z-001.zip"
+    },
+    {
+        "nombre": null,
+        "apellidos": null,
+        "telefono": null,
+        "correo": null,
+        "password": null,
+        "repeat_password": null,
+        "fichero": null
+    },
+    {
+        "nombre": null,
+        "apellidos": null,
+        "telefono": null,
+        "correo": null,
+        "password": null,
+        "repeat_password": null,
+        "fichero": null
+    },
+    {
+        "nombre": "Juan",
+        "apellidos": "Enrique",
+        "telefono": "465464",
+        "correo": "dadsasd@gmail.com",
+        "password": "5678",
+        "repeat_password": "5678",
+        "fichero": null
+    },
+    {
+        "nombre": null,
+        "apellidos": null,
+        "telefono": null,
+        "correo": null,
+        "password": null,
+        "repeat_password": null,
+        "fichero": null
+    },
+    {
+        "nombre": "fsaaa",
+        "apellidos": "afasffsa",
+        "telefono": "52525",
+        "correo": "asadads@gmail.com",
+        "password": "1234",
+        "repeat_password": "1234",
+        "fichero": null
+    }
+]
