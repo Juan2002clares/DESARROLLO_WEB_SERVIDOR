@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Juan",
+        "email": "holacontact@gmail.com",
+        "direccion": "Calle fulanico"
+    },
+    {
+        "Nombre": "Alicia",
+        "Edad": "19",
+        "direcci\u00f3n": "Calle cruz"
+    }
+]
