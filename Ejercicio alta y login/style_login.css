@@ -1,0 +1,74 @@
+:root {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+
+header {
+    text-align: center;
+    padding: 1rem;
+    font-size: 10px;
+    background-color: gold;
+}
+
+fieldset {
+    display: grid;
+    place-items: center;
+}
+
+form {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    border: 2px solid black;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 400px;
+}
+
+.datos {
+    text-align: center;
+}
+
+button {
+    padding: 0.3rem;
+    background-color: gold;
+    color: white;
+    border-radius: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    background-color: gray;
+}
+
+ul {
+    padding: 0.5rem 0.5rem;
+    list-style-type: none;
+}
+
+footer {
+    padding-top: 1rem;
+    height: auto;
+    background-color: gray;
+    color: white;
+}

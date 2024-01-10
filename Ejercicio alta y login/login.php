@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="./style_login.css">
 </head>
 <body>
-    <header>Inicio de Sesion</header>
+    <?php require_once('menu.php')?>
     <fieldset>
     <form method="POST" action="procesar_login.php">
-    <p>Usuario: <br><input type="email" name="userlogin"></p>
-    <p>Contraseña:<br><input type="password" name="passwordlogin"></p>
-    <button type="submit" value="login">Iniciar Sesión</button>
+    <p><strong>Login</strong></p>
+    <p class="datos">Usuario: <br><input type="email" name="userlogin"></p>
+    <p class="datos">Contraseña:<br><input type="password" name="passwordlogin"></p>
+    <button type="submit" value="login">Log in</button>
     <?php
     session_start();
     if(isset($_SESSION["error"])){
         print $_SESSION["error"];
     }
     ?>
-    <?php require_once('footer.html')?>
     </form>
-</fieldset>
-    
+</fieldset> 
+    <?php require_once('footer.php')?>
 </body>
 </html>

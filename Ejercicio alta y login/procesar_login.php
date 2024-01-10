@@ -12,6 +12,10 @@ $usuarios = json_decode($contenidoJSON, true);
 $nombreUsuario = recoge("userlogin");
 $contraseñaUsuario = recoge("passwordlogin");
 
+if($nombreUsuario == null or $contraseñaUsuario==null){
+    $_SESSION["errorlogin"] = "Falta usuario o contraseña";
+}
+
 // Realizar la comparación
 foreach ($usuarios as $usuario) {
     if ($usuario["correo"] === $nombreUsuario && $usuario["password"] === $contraseñaUsuario) {
@@ -21,7 +25,8 @@ foreach ($usuarios as $usuario) {
 }
 
 // Verificar si se encontró un usuario
-if ($usuarioEncontrado !== null) {
+
+if ($usuarioEncontrado != null) {
     // Devolver el objeto que coincide
     $data = json_encode($usuarioEncontrado);
     header("location:correcto.html");

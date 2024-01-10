@@ -31,10 +31,12 @@ div {
     padding: 25px;
 }
 
-/* input{
-    padding-left: 10px;
-    margin-left: 3px;
-} */
+form{
+    overflow: hidden;
+    &input{
+        font-size: 60px;
+    }
+}
 
 
 
